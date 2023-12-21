@@ -8,7 +8,7 @@ import datetime
 from django.core.exceptions import ObjectDoesNotExist, FieldError,MultipleObjectsReturned
 from django.db import models
 from django.db.models import F, Sum, FloatField, Q
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.conf import settings
 from django.db.models import F
 from configrate.models import Unit,Store

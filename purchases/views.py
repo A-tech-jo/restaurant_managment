@@ -15,14 +15,14 @@ from django.db.models.functions import Cast
 from django.contrib import messages
 from django.urls import reverse_lazy
 from django.http import HttpResponseRedirect, JsonResponse,  HttpResponse, QueryDict
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.urls import reverse
 from django_datatables_view.base_datatable_view import BaseDatatableView
 from django.db.models import Max
 from django.shortcuts import render, redirect, get_object_or_404
 from django.core import serializers
 from django.db import transaction, IntegrityError
-from django.utils.translation import ugettext_lazy as _
+from django.utils.translation import gettext_lazy as _
 from django.views.generic import ListView, CreateView, View, UpdateView, DeleteView
 from django.urls import reverse
 from django.db.models import Q, F
